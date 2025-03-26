@@ -2,7 +2,7 @@ import mobile from "../../../assets/mobiles.svg";
 import playstore from "../../../assets/googlePlay.svg";
 import apple from "../../../assets/appStore.svg";
 import arrow from "../../../assets/curvedArrow.svg";
-import { Box, Button, Container, Grid, Stack, Typography } from "@mui/material";
+import { Box, Button, Container, Grid2, Stack, Typography } from "@mui/material";
 import SmsForm from "./SmsForm";
 
 //download app component to render input details using SmsForm component
@@ -12,12 +12,12 @@ export default function DownloadApp() {
       sx={{ background: "linear-gradient(#E7F0FF 100%, #E8F1FF 47%)", pt: 5 }}
     >
       <Container>
-        <Grid container spacing={3} alignItems="center">
-          <Grid item xs={12} md={5.5}>
+        <Grid2 container spacing={3} alignItems="center">
+          <Grid2 item xs={12} md={5.5}>
             <Box src={mobile} component="img" width={1} height="auto" />
-          </Grid>
+          </Grid2>
 
-          <Grid item xs={12} md={6.5}>
+          <Grid2 item xs={12} md={6.5}>
             <Box
               position="relative"
               pl={{ xs: "36px", md: "50px" }}
@@ -77,8 +77,8 @@ export default function DownloadApp() {
                 </Button>
               </Stack>
             </Box>
-          </Grid>
-        </Grid>
+          </Grid2>
+        </Grid2>
       </Container>
     </Box>
   );
