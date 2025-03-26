@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import doctorIcon from "../../assets/doctor.svg";
 import pharmacyIcon from "../../assets/familyMedical.svg";
-import hospitalIcon from "../../assets/Hospital.svg";
+import hospitalIcon from "../../assets/hospital.svg";
 import capsuleIcon from "../../assets/faq.png";
 import ambulanceIcon from "../../assets/ambulance.svg";
 import IconCard from "../IconCard/IconCard";
