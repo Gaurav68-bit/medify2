@@ -7,7 +7,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Logo.svg";
 import fb from "../../assets/facebook.svg";
 import pinterest from "../../assets/pinterest.svg";
 import twitter from "../../assets/twitter.svg";
